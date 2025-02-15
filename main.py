@@ -13,5 +13,5 @@ async  def mas(last : str):
 async  def masa(lasts : str):
     return {"welcome  " + lasts}
 @app.get("/dataya/{id}")
-async  def masks(id :int, lastsw : str):
+async  def masks(id : str, lastsw : str):
     return {"welcome  "+" "+id+" " + lastsw}
