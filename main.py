@@ -9,3 +9,4 @@ async  def moin(name):
 @app.get("/data")
 async  def moins(lastName :str | None=None):
     return {"welcome  "+lastName}
+
