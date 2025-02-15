@@ -7,6 +7,8 @@ async def getData():
 async  def moin(name):
     return {"welcome  "+name}
 @app.get("/data")
-async  def moins(lastName :str | None=None):
-    return {"welcome  "+lastName}
-
+async  def mas(last : str):
+    return {"welcome  " + last}
+@app.get("/dataa")
+async  def masa(last : str):
+    return {"welcome  " + last}
