@@ -13,5 +13,5 @@ async  def mas(last : str):
 async  def masa(lasts : str):
     return {"welcome  " + lasts}
 @app.get("/dataya")
-async  def masa(lastsw : str):
+async  def masaa(lastsw : str):
     return {"welcome  " + lastsw}
