@@ -10,5 +10,8 @@ async  def moin(name):
 async  def mas(last : str):
     return {"welcome  " + last}
 @app.get("/dataa")
-async  def masa(last : str):
-    return {"welcome  " + last}
+async  def masa(lasts : str):
+    return {"welcome  " + lasts}
+@app.get("/dataya")
+async  def masa(lastsw : str):
+    return {"welcome  " + lastsw}
